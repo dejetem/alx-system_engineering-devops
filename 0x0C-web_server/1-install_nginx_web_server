@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# installs nginx
-apt-get -y update
-apt-get -y install nginx
-echo "Holberton School" > /var/www/html/index.nginx-debian.html
+# Bash script that configures a new machine for Ubuntu
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo chown -R ubuntu /var/www
+echo "Hello World" > /var/www/html/index.nginx-debian.html
 service nginx start
