@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Using your debugging skill
 # Nginx installation from listening on port 80
-# Start and destroy as many containers as you need to debug the
 # Bash script with the minimum number of commands to
 # automate your fix.
 
