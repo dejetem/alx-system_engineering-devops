@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Using your debugging skill
-# Nginx installation from listening to port 80
-# Bash script with the minimum number of commands
+# Nginx installation from listening on port 80
+# Start and destroy as many containers as you need to debug the
+# Bash script with the minimum number of commands to
 # automate your fix.
 
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
