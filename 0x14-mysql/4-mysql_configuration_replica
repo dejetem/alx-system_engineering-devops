@@ -1,5 +1,5 @@
 #
-# The MySQL database server configuration file.
+# The MySQL database server configuration.
 #
 # You can copy this to one of:
 # - "/etc/mysql/my.cnf" to set global options,
@@ -21,10 +21,12 @@
 # The following values assume you have at least 32M ram
 
 [mysqld_safe]
+
 socket		= /var/run/mysqld/mysqld.sock
 nice		= 0
 
 [mysqld]
+
 #
 # * Basic Settings
 #
