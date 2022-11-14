@@ -6,7 +6,6 @@ import requests
 import sys
 
 
-
 base_url = 'https://jsonplaceholder.typicode.com/'
 
 
@@ -43,6 +42,7 @@ def do_request():
                           (todo.get('userId'), user.get('username'),
                            todo.get('completed'), todo.get('title'))])
          for todo in user_todos]
+
 
 if __name__ == '__main__':
     do_request()
