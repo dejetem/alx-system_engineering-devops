@@ -7,7 +7,6 @@ import sys
 
 base_url = 'https://jsonplaceholder.typicode.com/'
 
-
 def do_request():
     '''Performs request'''
     if len(sys.argv) < 2:
